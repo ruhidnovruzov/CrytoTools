@@ -65,7 +65,9 @@ const Sidebar = () => {
           ${isOpen ? 'translate-x-0' : '-translate-x-full'} md:translate-x-0`}
       >
         <div className="p-4 font-bold text-xl border-b border-gray-700 flex justify-between items-center">
-          <span>Kriptoqrafiya</span>
+ <span>Kriptoqrafiya
+   <p className='font-normal text-sm italic mt-1'>Novruzov Ruhid tərəfindən hazırlanıb.</p>
+   </span>       
         </div>
         <nav className="mt-4 pb-16 md:pb-0">
           <ul>
